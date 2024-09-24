@@ -41,4 +41,20 @@
 
 `SELECT nombre_articulo AS Nombre, precio_articulo AS Precio FROM Articulo;`
 
-![consulta4](img/rt3.png)
+![consulta4](img/rt3.png "consulta4")
+
+5. Obtener los nombres de los articulos cuyos precios sean mayor a 50000
+
+`SELECT nombre_articulo FROM Articulo WHERE precio_articulo > 50000;`
+
+![consulta5](img/consulta5.png)
+
+6. Obtener el nombre de los articulos cuyo precio este entre 5000 y 40000 ambos incluidos 
+
+## Forma 1
+`SELECT nombre_articulo FROM Articulo WHERE precio_articulo >= 5000 AND precio_articulo <= 40000;`
+![consulta5](img/consulta61.png)
+## Forma 2
+`SELECT nombre_articulo FROM Articulo WHERE precio_articulo BETWEEN 5000 AND 40000;`
+
+![consulta5](img/consulta6.png)
