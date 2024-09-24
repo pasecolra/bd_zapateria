@@ -35,10 +35,10 @@
 
 `SELECT nombre_articulo FROM * articulo`
 
-![consulta3](img/rt3.png "consulta3")
+![consulta3](img/rt4.png "consulta3")
 
 4. mostrar los precios de los nombres de los productos
 
 `SELECT nombre_articulo AS Nombre, precio_articulo AS Precio FROM Articulo;`
 
-![consulta4](img/rt4.png)
+![consulta4](img/rt3.png)
