@@ -59,4 +59,21 @@
 
 ![consulta5](img/consulta6.png)
 
+7. obtener el nombre y el precio en dolares
+`SELECT nombre_articulo FROM Articulo WHERE precio_articulo >= 50000`
+
+![consulta5](img/consulta7.png)
+
+8. obtener el precio promedio de los articulos
+
+![consulta5](img/consulta8.png)
+
+9. obteber el precio promedio de los articulos cuyo id sean fab02
+
+![consulta5](img/consulta9.png)
+
+10. obtener el numero de los articulos cuyo precio sea mayor o igual a 50000
+
+![consulta5](img/consulta10.png)
+
 
