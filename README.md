@@ -58,3 +58,5 @@
 `SELECT nombre_articulo FROM Articulo WHERE precio_articulo BETWEEN 5000 AND 40000;`
 
 ![consulta5](img/consulta6.png)
+
+
