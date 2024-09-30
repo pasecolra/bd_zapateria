@@ -12,12 +12,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #9BF557;
+            color: #8824F2;
         }
 
         h1 {
-            color: #2c3e50;
+            color: #3D24F2;
         }
 
         p {
@@ -25,7 +25,7 @@
         }
 
         a {
-            color: #3498db;
+            color: #8824F2;
         }
     </style>
     <h1>bienvenido a la zapateria la sangileña</h1>
