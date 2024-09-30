@@ -23,10 +23,10 @@ ini_set('display_errors', '1');
     {
         die("la conexion a la BD fallo: "+ mysqli_error($conexion));
     }
-    else
-    {
-        die("Conexion exitosa a la BD");
-    }
+    //else
+    //{
+    //    die("Conexion exitosa a la BD");
+    //}
 
 
 
