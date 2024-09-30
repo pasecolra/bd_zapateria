@@ -10,5 +10,14 @@
     <?php
     echo "hola";
     ?>
+    <div id="div_inicio_sesion">
+        <form  action="modelo/loguear.php" method="post">
+            <input type="text" name="usuario" id="" placeholder = "Usuario" require>
+            <br>
+            <input type = "password" name="clave" id="" placeholder = "Contraseña" require>
+            <br>
+            <button type = "submit">Ingresar</button>
+        </form> 
+    </div>
 </body>
 </html>
