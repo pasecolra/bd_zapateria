@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zapateria</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Zapateria la sangil</h1>
@@ -17,27 +18,6 @@
             <button type = "submit">Ingresar</button>
         </form> 
     </div>
-    <style>
-        
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #9BF557;
-            color: #8824F2;
-        }
-
-        h1 {
-            color: #3D24F2;
-        }
-
-        p {
-            line-height: 1.5;
-        }
-
-        a {
-            color: #8824F2;
-        }
-    </style>
+    
 </body>
 </html>
