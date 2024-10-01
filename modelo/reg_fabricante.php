@@ -20,7 +20,7 @@
         if($insercion)
         {
             echo '<script type="text/javascript">alert("Fabricante registrado");
-                window.location.href=" ../registrar_fabricante.phop";
+                window.location.href=" ../registrar_fabricante.php";
                 </script>';
         }
         else

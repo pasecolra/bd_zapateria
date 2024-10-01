@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+
+    
+
+
     <div id="contenedor_princiapl">
         <h1>Zapateria la Sangileña</h1>
         <p>Nombre: <?php echo ' ' .$nombre_usuario;?></p>
