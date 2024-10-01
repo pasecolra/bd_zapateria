@@ -25,10 +25,10 @@
         <h3>Registros de fabricante</h3>
         <div id="reg_fabricante">
         <form  action="modelo/reg_fabricante.php" method="post">
-            <label for="">Id</label>
+            <label for="">Id: </label>
             <input type="text" name="id_fab" id="" placeholder = "id Fabricante" require>
             <br>
-            <label for="">Nombre</label>
+            <label for="">Nombre: </label>
             <input type = "password" name="nombre_fab" id="" placeholder = "Nombre Fabricante" require>
             <br>
             <button type = "submit">Ingresar</button>
