@@ -15,11 +15,11 @@
 
         $query = "INSERT INTO Fabricante(id_fabricante, nombre_fabricante) VALUES ('$id_fab', '$nombre_fab')";
 
-        $insercion = mysqli_query($conexion, $query) or trigger_error("Error en la insercion de los datos: ".mysquli_error($conexion));
+        $insercion = mysqli_query($conexion, $query) or trigger_error("Error en la insercion de los datos: ".mysqli_error($conexion));
 
         if($insercion)
         {
-            echo '<script type="text/javascript">alert("Fabricante registrado);
+            echo '<script type="text/javascript">alert("Fabricante registrado");
                 window.location.href=" ../registrar_fabricante.phop";
                 </script>';
         }
