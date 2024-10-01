@@ -1,3 +1,18 @@
+<?php
+    require 'modelo/conexion.php';
+
+    session_start();
+
+    if(isset($_SESSION['username']) && isset($_SESSION['correo']))
+
+    {
+        $nombre_usuario = $_SESSION['username'];
+        $correo_usuario = $_SESSION['correo'];
+    }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +22,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="contenedor_princiapl">
+        <h1>Usuario: <?php echo ' ' .$nombre_usuario;?></h1>
+    </div>
     
-    <h1>bienvenido a la zapateria la sangileña</h1>
-    
+
 </body>
 </html>
