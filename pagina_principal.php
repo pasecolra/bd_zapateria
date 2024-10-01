@@ -23,7 +23,16 @@
 </head>
 <body>
     <div id="contenedor_princiapl">
-        <h1>Usuario: <?php echo ' ' .$nombre_usuario;?></h1>
+        <h1>Zapateria la Sangileña</h1>
+        <p>Nombre: <?php echo ' ' .$nombre_usuario;?></p>
+        <p>Usuario: <?php echo ' ' .$correo_usuario;?></p>
+        <h3>Registros</h3>
+        <a href="registrar_fabricante.php">Fabricante</a>
+        <a href="registrar_articulo.php">Articulo</a>
+        <h3>Consultas</h3>
+        <h3>Actualizaciones</h3>
+        <h3>Eliminaciones </h3>
+        <h3>Cerrar Sesion</h3>
     </div>
     
 
