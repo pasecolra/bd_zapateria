@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fabricante</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -25,10 +26,10 @@
         <p>Nombre: <?php echo ' ' .$nombre_usuario;?></p>
         <p>Usuario: <?php echo ' ' .$correo_usuario;?></p>
         <h3>Registros de fabricante</h3>
-        <div id="reg_articulo">
-        <form  action="modelo/reg_articulo.php" method="post">
+        <div id="reg_fabricante">
+        <form  action="modelo/reg_fabricante.php" method="post">
             <label for="">Id: </label>
-            <input type="text" name="id_art" id="" placeholder = "id Articulo" require>
+            <input type="text" name="id_fab" id="" placeholder = "id Fabricante" require>
             <br>
             <label for="">Nombre: </label>
             <input type = "text" name="nombre_fab" id="" placeholder = "Nombre Fabricante" require>
