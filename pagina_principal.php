@@ -39,6 +39,8 @@
 </section>
 <section id="inicio">
         <h3>Consultas</h3>
+        <a href="modelo/consulta_fabricantes.php">Fabricantes</a>
+        <a href="modelo/consulta_articulos.php">Articulos</a>
 </section>
 <section id="inicio">
         <h3>Actualizaciones</h3>
