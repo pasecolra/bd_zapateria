@@ -11,6 +11,12 @@ ini_set('display_errors', '1');
     //DEFINE('PW','');
     //DEFINE('HOST','localhost');
     //DEFINE('BD','bd_zapateria');
+    DEFINE('USER','if0_37435022');
+    DEFINE('PW',' 2bTjZnJUdOMW ');
+    DEFINE('HOST','sql102.infinityfree.com');
+    DEFINE('BD','if0_37435022_bd_zapateria');
+
+
 
     //Conexion a la BD
     $conexion = mysqli_connect('localhost', 'root', '',  'bd_zapateria');

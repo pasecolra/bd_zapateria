@@ -48,6 +48,7 @@
         </section>
 <section id="inicio">
         <h3>Cerrar Sesion</h3>
+        <a href="modelo/cerrar_sesion.php">Salir</a>
         </section>
     </div>
     
