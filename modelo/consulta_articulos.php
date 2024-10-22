@@ -9,7 +9,10 @@ ini_set('display_errors', '1');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles_pag.css">
-    <title>Listado fabricantes</title>
+    <title>Listado Articulos</title>
+
+
+
 
     <style>
     body {
@@ -69,11 +72,19 @@ ini_set('display_errors', '1');
 
 
 
+
+
+
+
+
+
+
+
 </head>
 <body>
     <header>
     <div class = "consultas">
-        <h2>Fabricantes</h2>
+        <h2>Articulo</h2>
     </header>
         <?php
     require 'conexion.php';
@@ -85,7 +96,7 @@ ini_set('display_errors', '1');
         //$id_fab = $_POST['id_fab'];
         //$nombre_fab = $_POST['nombre_fab'];
 
-        $query = "SELECT id_fabricante, nombre_fabricante FROM Fabricante";
+        $query = "SELECT id_articulo, nombre_articulo, precio_artculo FROM Articulo";
 
         $resultado = mysqli_query($conexion, $query) or trigger_error("Error en la consulta ". mysqli_error($conexion));
 
@@ -94,19 +105,23 @@ echo "<table border= '1' align = 'center'>";
 echo "<tr>";
 echo "<th>Id</th>";
 echo "<th>Nombre</th>";
+echo "<th>Precio</th>";
 echo "</tr>";
 
 // Mostrar consulta a la bd, en la tabla html
 while($fila = mysqli_fetch_array($resultado))
 {
-echo "<tr>";
-echo "<td>";
-echo $fila['id_fabricante'];
-echo "</td>";
-echo "<td>";
-echo $fila['nombre_fabricante'];
-echo "</td>";
-echo "</tr>";
+    echo "<tr>";
+    echo "<td>";
+    echo $fila['id_articulo'];
+    echo "</td>";
+    echo "<td>";
+    echo $fila['nombre_articulo'];
+    echo "</td>";
+    echo "<td>";
+    echo $fila['precio_artculo'];
+    echo "</td>";
+    echo "</tr>";
 }
 
 echo "</table>";
